@@ -1,0 +1,81 @@
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+    	border: none;
+}
+
+.square-used {
+	background-color: #ffffff;
+	color: #12130f;
+	font-size: 100px;
+	border: 4px solid #00796B;
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+.square {
+	background-color: #ffffff;
+	color: #12130f;
+	font-size: 100px;
+	border: 4px solid #00796B;
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+.square:hover {
+	background-color: #8f8073;
+}
+
+.status {
+	font-size: 50px;
+	text-align: center;
+	font-family: cursive;
+	color: #5b9279;
+}
+
+.status-win {
+  font-size: 50px;
+	text-align: center;
+	font-family: cursive;
+	color: #ed6258;
+}
+
+.reset {
+		width: 450px;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		color: #8fcb9b;
+		font-family: cursive;
+		font-size: 40px;
+		background-color: #00796B;
+		border: 0px solid;
+}
+
+.controlles {
+		margin: auto;
+		width: 450px;
+		margin-top: 40px;
+		box-shadow: 10px 10px 10px #8f8073;
+}
+
+.board {
+	width: 450px;
+	height: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	box-shadow: 10px 10px 10px #8f8073;
+}
+
+.game {
+
+}
+
+body {
+	background: #eae6e5;
+}
